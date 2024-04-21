@@ -1,0 +1,104 @@
+.container{
+  max-width: 1300px;
+  padding: 16px;
+  margin: auto;
+}
+button{
+  background-color: black;
+  color: aliceblue;
+  padding: 10px;
+  font-size: 15px;
+  border-radius:3px ;
+  cursor: pointer;
+}
+.btn-pri{
+  background-color: #9199A3;
+  border: none;
+}
+
+.online .container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+ 
+}
+.online-heading{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 72px;
+}
+.online-btn button {
+margin-left: 37px;
+
+}
+
+.online-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.online-con{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+ 
+}
+.online-con span{
+font-size: 30px;
+font-weight: 500;
+line-height: 28.8px;
+}
+.online-con p{
+font-size: 18px;
+font-weight: 500;
+line-height: 28.8px;
+}
+
+@media (max-width: 768px) {
+
+  .online .container {
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  .online-heading {
+    font-size: 24px; 
+    line-height: 36px; 
+    text-align: center; 
+  }
+
+  .online-btn button {
+    margin: 0; 
+    margin-bottom: 10px; 
+    margin-left: 10px;
+  }
+
+  .online-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+  }
+  .online-con div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+  .online-con span {
+    font-size: 24px; 
+    line-height: 32px; 
+    text-align: center; 
+  }
+
+  .online-con p {
+    font-size: 16px; 
+    line-height: 24px; 
+    text-align: center; 
+  }
+}

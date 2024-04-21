@@ -1,0 +1,32 @@
+.container{
+  max-width: 1300px;
+  padding: 16px;
+  margin: auto;
+}
+.world .container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:60px;
+}
+.world-con h2{
+font-size: 52px;
+font-weight: 700;
+line-height: 72.8px;
+}
+
+@media (max-width: 768px) {
+  .world .container {
+    gap: 30px; 
+  }
+
+  .world-con h2 {
+    font-size: 36px; 
+    line-height: 48px; 
+    text-align: center; 
+  }
+  /* .world-img{
+    width:1300px
+  } */
+}

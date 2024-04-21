@@ -1,0 +1,66 @@
+.container{
+  max-width: 1300px;
+  padding: 16px;
+  margin: auto;
+}
+.journey .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.journey-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap:20px;
+
+}
+.journey-content h2{
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 72px;
+}
+.journey-content p{
+  font-weight: 500px;
+  font-size: 18px;
+  line-height: 28px;
+}
+button{
+  background-color: black;
+  color: aliceblue;
+  padding: 10px;
+  font-size: 15px;
+  border-radius:5px ;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .journey .container {
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  .journey-img {
+    margin-bottom: 30px; 
+  }
+
+  .journey-content {
+    text-align: center; 
+    gap: 10px; 
+  }
+
+  .journey-content h2 {
+    font-size: 36px; 
+    line-height: 48px; 
+  }
+
+  .journey-content p {
+    font-size: 16px; 
+    line-height: 24px;
+  }
+  .journey-content button{
+    margin-left: 300px;
+  }
+}
