@@ -37,6 +37,8 @@ button{
   cursor: pointer;
 }
 
+
+
 @media (max-width: 768px) {
   .discover .container {
     flex-direction: column;
@@ -58,8 +60,7 @@ button{
   }
 
   button {
-    padding: 8px 20px; 
+    padding: 8px 20px;
     font-size: 14px;
-    
   }
 }
