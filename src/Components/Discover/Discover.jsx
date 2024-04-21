@@ -13,7 +13,7 @@ function Discover() {
           <button>Find tutor</button>
         </div>
         <div className='discover-img'>
-          <img src={dimg} alt="" />
+          <img src={dimg} alt="discover-image" />
         </div>
 
       </div>

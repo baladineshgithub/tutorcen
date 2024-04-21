@@ -11,7 +11,7 @@ function Nextlevel() {
           <button>Get started</button>
         </div>
         <div className='next-img'>
-          <img src={nextimg} alt="" />
+          <img src={nextimg} alt="nextimg" />
         </div>
 
       </div>

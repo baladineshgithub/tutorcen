@@ -11,7 +11,7 @@ function Footer() {
     <section className='footer'>
       <div className='container'>
         <div>
-          <img src={title} alt="" />
+          <img src={title} alt="footer-title" />
           <p>Discover endless learning opportunities with Tutorcen!</p>
       </div>
        <div>
