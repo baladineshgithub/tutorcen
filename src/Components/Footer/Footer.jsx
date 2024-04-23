@@ -8,7 +8,7 @@ import twitter from '../Assets/twitter 1 1.png'
 
 function Footer() {
   return (
-    <section className='footer'>
+    <div className='footer'>
       <div className='container'>
         <div>
           <img src={title} alt="footer-title" />
@@ -59,7 +59,7 @@ function Footer() {
         </div>
    
       </div>
-    </section>
+    </div>
   )
 }
 

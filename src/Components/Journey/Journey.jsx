@@ -4,7 +4,7 @@ import './Journey.css'
 
 function Journey() {
   return (
-    <div className='journey'>
+    <section className='journey'>
       <div className="container">
         <div className="journey-img">
           <img src={journeyimg} alt="" />
@@ -18,7 +18,7 @@ function Journey() {
 
       </div>
 
-    </div>
+    </section>
   )
 }
 

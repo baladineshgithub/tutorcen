@@ -4,10 +4,15 @@ import logo from '../Assets/Original Logo 2.png'
 import world from '../Assets/Vector.png'
 import { FaBars } from "react-icons/fa";
 import { ImCross } from "react-icons/im";
+import { useNavigate} from 'react-router-dom';
 
 function Navbar() {
+  const navigate = useNavigate();
 
   const [mobile, setmobile] = useState(false)
+  const handleLoginClick = () => {
+    navigate('/login');
+  };
   return (
     <div className='navbar'>
       <div className='container'>
@@ -20,7 +25,9 @@ function Navbar() {
         <li>Learn</li>
         <li>Apply for tutor</li>
         <li><img src={world} alt="world-logo"/>EN</li>
-        <button className='btn btn-primary'>Login & sign up</button>
+        <li>
+            <button onClick={handleLoginClick} className='btn '>Login & Sign up</button>
+        </li>
       </ul>
       <button className='mobile-menu-icon' onClick={()=> setmobile(!mobile)}>
         {mobile? <ImCross/> :  <FaBars />}

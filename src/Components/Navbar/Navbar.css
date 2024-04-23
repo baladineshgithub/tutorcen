@@ -18,7 +18,7 @@
   display: flex;
   align-items: center;
   list-style: none;
-  gap: 60px;
+  gap: 40px;
   font-size: 20px;
   font-weight: 500;
  
@@ -30,31 +30,16 @@
   gap:5px;
   cursor: pointer;
 }
-.nav-menu button{
+
+.btn {
   background-color: black;
-  color: aliceblue;
-  padding: 15px;
-  font-size: 18px;
-  border-radius:5px ;
-  cursor: pointer;
-}
-
-.nav-menu .btn{
-    background-color: black;
-    color: aliceblue;
-    padding: 10px;
-    font-size: 15px;
-    border-radius:5px ;
-    cursor: pointer;
-}
-
-.navbar button{
-  border: none;
-  background: none;
+  padding: 23px;
   font-size: 20px;
-  color: black;
-
 }
+
+
+
+
 .mobile-menu-icon{
  display: none;
 }

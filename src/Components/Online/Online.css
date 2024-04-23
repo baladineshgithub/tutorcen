@@ -10,7 +10,14 @@ button{
   font-size: 15px;
   border-radius:3px ;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
+
+button:hover {
+  background-color: #333;
+}
+
+
 .btn-pri{
   background-color: #9199A3;
   border: none;
@@ -38,23 +45,39 @@ margin-left: 37px;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  gap: 100px;
 }
-.online-con{
+
+.content {
   display: flex;
   flex-direction: column;
-  gap: 40px;
- 
+  gap: 25px;
 }
-.online-con span{
-font-size: 30px;
+.content img{
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.content span{
+font-size: 25px;
 font-weight: 500;
 line-height: 28.8px;
+
 }
-.online-con p{
+.content p{
 font-size: 18px;
 font-weight: 500;
 line-height: 28.8px;
+margin-left: 28px;
+}
+
+
+.online-con{
+  display: none;
+}
+.show-con{
+  display: block;
+
 }
 
 @media (max-width: 768px) {

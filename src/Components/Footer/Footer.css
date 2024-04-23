@@ -3,6 +3,9 @@
   padding: 16px;
   margin: auto;
 }
+.footer{
+  margin-top: 150px;
+}
 
 .line{
   border: 1px solid ;
@@ -20,12 +23,14 @@
  .footer .container {
   display: flex;
   justify-content: space-between;
+  /* align-items: center; */
+  /* justify-content: center; */
   flex-wrap: wrap;
 }
 
 .footer > div {
   flex: 1;
-  margin-right: 30px; 
+  /* margin-right: 30px;  */
 }
 
 .footer img {

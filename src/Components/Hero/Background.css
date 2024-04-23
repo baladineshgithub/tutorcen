@@ -1,0 +1,24 @@
+.slider-container {
+  position: relative;
+  width:686px;
+  height: 710px;
+  overflow: hidden;
+}
+
+.slide {
+  display: none;
+}
+
+.active {
+  display: block;
+  animation: slideIn 1s ease-in-out forwards;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
